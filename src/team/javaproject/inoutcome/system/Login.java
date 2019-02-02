@@ -6,7 +6,6 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 
 public class Login{
-    //take it boy
     private static JFrame jf;
     public static void main(String[] args) {
         String user,password;
