@@ -1,4 +1,4 @@
-﻿package team.javaproject.inoutcome.system;
+package team.javaproject.inoutcome.system;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
