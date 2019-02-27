@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36196841-cd37-49f2-a2e0-cccfca51787d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/javaproject/inoutcome/system/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/javaproject/inoutcome/system/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/javaproject/inoutcome/system/regist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/javaproject/inoutcome/system/regist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/javaproject/inoutcome/system/sql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/javaproject/inoutcome/system/sql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/javaproject/inoutcome/system2/Research.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/javaproject/inoutcome/system/Research.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/javaproject/inoutcome/system/Research.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/javaproject/inoutcome/system/Research.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/team/javaproject/inoutcome/system/Research.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="94" column="23" lean-forward="true" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+            <state relative-caret-position="264">
+              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1500#1501#0" expanded="true" />
@@ -80,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/team/javaproject/inoutcome/system/sql.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
+            <state relative-caret-position="1650">
               <caret line="75" column="34" lean-forward="true" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -176,9 +172,9 @@
         <option value="$PROJECT_DIR$/src/team/javaproject/inoutcome/system/Login.java" />
         <option value="$PROJECT_DIR$/src/team/javaproject/inoutcome/system/regist.java" />
         <option value="$PROJECT_DIR$/src/team/javaproject/inoutcome/system2/Research.java" />
-        <option value="$PROJECT_DIR$/src/team/javaproject/inoutcome/system/Research.java" />
         <option value="$PROJECT_DIR$/src/team/javaproject/inoutcome/system/alter.java" />
         <option value="$PROJECT_DIR$/src/team/javaproject/inoutcome/system/sql.java" />
+        <option value="$PROJECT_DIR$/src/team/javaproject/inoutcome/system/Research.java" />
       </list>
     </option>
   </component>
@@ -223,7 +219,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551253094448" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551253695411" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -331,12 +327,12 @@
       <workItem from="1548474207276" duration="835000" />
       <workItem from="1548650157924" duration="33278000" />
       <workItem from="1549419901226" duration="456000" />
-      <workItem from="1551250479836" duration="2600000" />
+      <workItem from="1551250479836" duration="3199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49637000" />
+    <option name="totallyTimeSpent" value="50236000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -444,27 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/javaproject/inoutcome/system/shaenc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/javaproject/inoutcome/system/Research.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="94" column="23" lean-forward="true" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1500#1501#0" expanded="true" />
-            <element signature="e#1549#1550#0" expanded="true" />
-            <element signature="e#2478#2479#0" expanded="true" />
-            <element signature="e#2562#2563#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/team/javaproject/inoutcome/system/regist.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -517,10 +492,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/team/javaproject/inoutcome/system/sql.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
+        <state relative-caret-position="1650">
           <caret line="75" column="34" lean-forward="true" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/javaproject/inoutcome/system/shaenc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/javaproject/inoutcome/system/Research.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#2478#2479#0" expanded="true" />
+            <element signature="e#2562#2563#0" expanded="true" />
           </folding>
         </state>
       </provider>

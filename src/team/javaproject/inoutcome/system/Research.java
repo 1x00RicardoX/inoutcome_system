@@ -22,6 +22,7 @@ public class Research extends JFrame{
 		setTitle("财务管理系统");
 		setSize(600, 400);
         setLocationRelativeTo(null);
+        //TODO 通过读取protrait确定是管理员还是学生，提供不同方法
         
         setResizable(false);
         setVisible(true);
