@@ -62,6 +62,8 @@ public class sql {
         String url = "jdbc:sqlserver://localhost:1433;DatabaseName=jdbctest1;";
         String sql = "use jdbctest1;"+"\n insert into userfile1" +
                 " (account,password)"+" values ('"+user+"','"+password+"')";
+        String sql2 = "use jdbctest1;"+"\n select id from userfile1" +
+                "\n where account='"+user+"' and password='"+password+"'";
         try {
             // 连接数据库
             conn = DriverManager.getConnection(url, "sa", "123");
@@ -70,9 +72,11 @@ public class sql {
             /**
              * Statement createStatement() 创建一个 Statement 对象来将 SQL 语句发送到数据库。
              */
+            // 执行数据库插入语句
+            if(sm.executeUpdate(sql)==0)
+                return 0;
             // 执行数据库查询语句
-
-            i=sm.executeUpdate(sql);
+            i=sm.executeUpdate(sql2);
 
             if (sm != null) {
                 sm.close();

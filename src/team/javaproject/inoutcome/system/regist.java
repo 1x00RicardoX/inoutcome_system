@@ -99,14 +99,16 @@ public class regist extends JFrame{
         else{
             shaenc enc=new shaenc();
             String password=enc.SHA(jp1.getText(),"SHA-256");
-            if(sql.regist(jt1.getText(),password)==1){
+            int id=sql.regist(jt1.getText(),password);
+            if(id!=0){
                 JOptionPane.showMessageDialog(null, "注册成功！", "注册提示",JOptionPane.INFORMATION_MESSAGE);
                 int n = JOptionPane.showConfirmDialog(null, "是否直接进入系统?", "注册提示",JOptionPane.YES_NO_OPTION);
                 if(n==1){
-                	
                     this.dispose();
                 }
-                //TODO 根据n为1或0选择进入系统或返回登录界面
+                //根据n为1或0选择进入系统或返回登录界面
+                if(n==0)
+                    research(id);
             }
             else
                 JOptionPane.showMessageDialog(null, "注册失败！  请重新输入注册信息！", "注册提示",JOptionPane.WARNING_MESSAGE);

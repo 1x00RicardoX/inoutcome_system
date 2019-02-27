@@ -107,7 +107,6 @@ public class Login{
             int id=sql1.login(user, password);
             if(id!=0){
                 JOptionPane.showMessageDialog(null, "登录成功！", "登录提示",JOptionPane.INFORMATION_MESSAGE);
-                //TODO
                 // 进入系统
                 research(id);
             }
