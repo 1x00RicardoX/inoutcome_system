@@ -5,8 +5,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-import team.javaproject.inoutcome.system2.Research;
-
 public class Login{
     private static JFrame jf;
     public static void main(String[] args) {

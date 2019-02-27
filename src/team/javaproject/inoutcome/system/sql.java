@@ -61,7 +61,7 @@ public class sql {
         Statement sm;
         String url = "jdbc:sqlserver://localhost:1433;DatabaseName=jdbctest1;";
         String sql = "use jdbctest1;"+"\n insert into userfile1" +
-                " (account,password)"+" values ('"+user+"','"+password+"')";
+                " (account,password,portrait)"+" values ('"+user+"','"+password+",1')";
         String sql2 = "use jdbctest1;"+"\n select id from userfile1" +
                 "\n where account='"+user+"' and password='"+password+"'";
         try {
@@ -194,6 +194,6 @@ public class sql {
     	
     }
     public static void alter(int i) {//修改个人信息
-    	
+
     }
 }

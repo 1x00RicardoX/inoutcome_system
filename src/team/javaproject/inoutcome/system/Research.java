@@ -1,4 +1,4 @@
-package team.javaproject.inoutcome.system2;
+package team.javaproject.inoutcome.system;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -50,7 +50,7 @@ public class Research extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 research_Infor(i);
             }
-        });
+        });//
 		table=new JTable();
 		model=new DefaultTableModel();
 		table.setModel(model);
@@ -91,11 +91,14 @@ public class Research extends JFrame{
 	}
 	
 	public void person_Infor(int i) {
-		
+		alter newAlter=new alter(i);
+		this.dispose();
 	}
+
 	public void data_Infor(int i) {
 		JOptionPane.showConfirmDialog(null, "改功能尚未完善"," ",JOptionPane.DEFAULT_OPTION);
 	}
+
 	public void research_Infor(int i) {
 		
 	}
