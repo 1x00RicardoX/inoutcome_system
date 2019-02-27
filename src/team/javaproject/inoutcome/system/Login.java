@@ -5,6 +5,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
+import team.javaproject.inoutcome.system2.Research;
+
 public class Login{
     private static JFrame jf;
     public static void main(String[] args) {
@@ -107,6 +109,7 @@ public class Login{
                 JOptionPane.showMessageDialog(null, "登录成功！", "登录提示",JOptionPane.INFORMATION_MESSAGE);
                 //TODO
                 // 进入系统
+                research(id);
             }
             else
                 JOptionPane.showMessageDialog(null, "用户名或密码错误！  请重新输入！", "登录提示",JOptionPane.WARNING_MESSAGE);
@@ -116,5 +119,11 @@ public class Login{
     public static void regist(){
         regist reg=new regist();
         jf.dispose();
+    }
+    
+    //进入系统
+    public static void research(int i) {
+    	Research res=new Research(i);
+    	jf.dispose();
     }
 }

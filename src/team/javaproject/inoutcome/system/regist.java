@@ -5,6 +5,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
+import team.javaproject.inoutcome.system2.Research;
+
 public class regist extends JFrame{
     private static int count=0;
     private static String vcode="";
@@ -101,6 +103,7 @@ public class regist extends JFrame{
                 JOptionPane.showMessageDialog(null, "注册成功！", "注册提示",JOptionPane.INFORMATION_MESSAGE);
                 int n = JOptionPane.showConfirmDialog(null, "是否直接进入系统?", "注册提示",JOptionPane.YES_NO_OPTION);
                 if(n==1){
+                	
                     this.dispose();
                 }
                 //TODO 根据n为1或0选择进入系统或返回登录界面
@@ -109,6 +112,10 @@ public class regist extends JFrame{
                 JOptionPane.showMessageDialog(null, "注册失败！  请重新输入注册信息！", "注册提示",JOptionPane.WARNING_MESSAGE);
         }
     }
-
+    
+    //进入系统
+    public static void research(int i) {
+    	Research res=new Research(i);
+    }
 
 }
