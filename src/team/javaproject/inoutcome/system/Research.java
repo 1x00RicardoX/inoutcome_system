@@ -103,4 +103,5 @@ public class Research extends JFrame{
 	public void research_Infor(int i) {
 		
 	}
+
 }

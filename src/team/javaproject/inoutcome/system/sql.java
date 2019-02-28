@@ -193,7 +193,8 @@ public class sql {
     public static void insert() {//插入收支信息
     	
     }
-    public static void alter(int i) {//修改个人信息
-
+    public static String[] alter(int i) {//修改个人信息
+        String[] what=new String[7];
+        return what;
     }
 }

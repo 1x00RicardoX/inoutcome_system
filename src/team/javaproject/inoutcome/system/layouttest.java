@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class alter extends JFrame{
+public class layouttest extends JFrame {
     private static String[] labelWord={"账号:","密码:","确认密码:","姓名:","性别:","电话:","邮箱:","地址:"};
     private String account,password,name,sex,phone,mail,address;//保存用户数据
     private String _account,_password,_name,_sex,_phone,_mail,_address;//保存用户修改后数据
@@ -17,7 +17,7 @@ public class alter extends JFrame{
     JLabel biaoti;
     JPanel panel;
 
-    private void init(){
+    public void init(){
         setTitle("收支管理系统信息修改");
         setSize(320, 400);
         setLocationRelativeTo(null);
@@ -131,7 +131,6 @@ public class alter extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
                 //TODO 提交修改
-                //调用zhuce();
                 //TODO 成功则跳转
             }
         });
@@ -139,35 +138,8 @@ public class alter extends JFrame{
 
     }
 
-    public alter(int id){
-        //TODO 获取用户数据 返回string[]
-        sql s=new sql();
-        String[] gets=sql.alter(id);
-        zhuanhuan(gets);
-        init();
-    }
-
-    private void zhuanhuan(String[] get){
-        account=get[0];
-        password=get[1];
-        name=get[2];
-        sex=get[3];
-        phone=get[4];
-        mail=get[5];
-        address=get[6];
-    }
-
-
-    private String[] zhuanhuan(){
-        String[] post=new String[7];
-        post[0]=account;
-        post[1]=password;
-        post[2]=name;
-        post[3]=sex;
-        post[4]=phone;
-        post[5]=mail;
-        post[6]=address;
-        return post;
+    public static void main(String[] args){
+        layouttest l=new layouttest();
+        l.init();
     }
 }
-
