@@ -4,4 +4,4 @@
 
 v1 login/register function by xy  
 v2 show data function by wyj  
-c3 informationChange by xy  
+v3 informationChange by xy  
