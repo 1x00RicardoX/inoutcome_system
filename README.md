@@ -3,3 +3,5 @@
 密码使用sha-256加密 注册带验证码
 
 v1 login/register function by xy
+v2 show data function by wyj
+c3 informationChange by xy
