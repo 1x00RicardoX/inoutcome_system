@@ -1,4 +1,6 @@
 ﻿# inoutcome_system
+用户收入支出管理统计工具 via java
+
 可使用sql文件创建账户密码并使用
 密码使用sha-256加密 注册带验证码
 
